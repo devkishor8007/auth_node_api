@@ -12,16 +12,16 @@ This repo is Auth Node.js Api [Backend Server]
 
 Your app should now be running on ```localhost:5000```
 
-#### For Get All
+#### For Get All [Check in Postman or Browser]
     http://localhost:5000/
 
-#### For Login Method
+#### For Login Method [Check in Postman]
     http://localhost:5000/login
 
-#### For Signup Method
+#### For Signup Method [Check in Postman]
    http://localhost:5000/signup
 
-#### For Delete Method
+#### For Delete Method [Check in Postman]
     http://localhost:5000/delete/:id
 
 ## Documentation
