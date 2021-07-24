@@ -26,6 +26,9 @@ Your app should now be running on ```localhost:5000```
 ## In Postman, Set the Header Like this - ```o-auth-token``` and ```add your own token key```
 ![image](https://user-images.githubusercontent.com/73419211/126860304-799c9d71-5940-41de-986d-1a08d8b5188c.png)
 
+ ##
+ Note: ```You must have install the Redis in your OS.```
+##
 
 ## Documentation
 [Node.js Guide](https://nodejs.org/en/docs/)<br>
