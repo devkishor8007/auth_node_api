@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 require('./db')
 
-app.use(express.json());
+app.use(express.json({ extended: true }));
 app.use('/', require("./route/user_account"),);
 
 const port = process.env.PORT || 5000

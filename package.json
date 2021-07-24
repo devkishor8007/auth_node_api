@@ -10,10 +10,14 @@
   "author": "kishor",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jwt-redis": "^6.0.0",
     "mongoose": "^5.13.3",
-    "nodemon": "^2.0.12"
+    "nodemon": "^2.0.12",
+    "redis": "^3.1.2"
   },
   "engines": {
     "node": "14.16.0"

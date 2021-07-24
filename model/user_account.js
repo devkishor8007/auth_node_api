@@ -1,17 +1,22 @@
 const mongoose = require("mongoose");
 
 const accountUser = mongoose.Schema({
-    nameUser: {
+    name: {
         type: String,
         require: true,
     },
     email: {
         type: String,
         require: true,
+        unique: true,
     },
     password: {
         type: String,
         require: true,
+    },
+    date: {
+        type: Date,
+        default: Date.now,
     }
 });
 
@@ -24,4 +29,4 @@ accountUser.set('toJSON', {
     virtuals: true,
 });
 
-module.exports = mongoose.model("AccountUser", accountUser);
+module.exports = mongoose.model("account", accountUser);
