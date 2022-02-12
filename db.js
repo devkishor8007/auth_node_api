@@ -10,8 +10,5 @@ mongoose
     console.log("MongoDb is connecting");
   })
   .catch((e) => {
-    if (process.env.PRODUCTION === "production") {
-      console.log = function () {};
-    }
     console.log("MongoDb is not connecting" + e);
   });
