@@ -6,12 +6,19 @@ This repo is Auth Node.js Api [Backend Server]
 #### Make sure you have Node.js and the Heroku CLI installed.
      $ git clone https://github.com/devkishor8007/auth_node_api.git # or clone your own fork
      $ cd node_auth_api
-     create a .env then type MONGO_URL = yourMongoDBURlLink
+     $ npm i
+     $ npm i -g nodemon
+     create a .env file then type 
+        MONGO_URL=<yourMongoDBURlLink> 
+        SECRET=<yours_secret_key>
+     
      $ nodemon index.js
+     
+#### Note: Before doing ```$ nodemon index.js```, you must do one thing that is Open the Redis Server and if you have not Redis DB in your system then do download.
 
 Your app should now be running on ```localhost:5000```
 
-#### For Get Data  || You need the token [Check in Postman]
+#### For the login User Data  || You need the token [Check in Postman] as Header("x-auth-token" : <token_key>);
     http://localhost:5000/
 
 #### For Login Method [Check in Postman]
